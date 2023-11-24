@@ -1,0 +1,59 @@
+.macaroon {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 107px 20px 25px;
+  position: relative;
+
+  &:hover {
+    .macaroon__image-img {
+      transform: scale(1.1);
+    }
+  }
+
+  .macaroon__image {
+    position: absolute;
+    top: -59px;
+    left: calc(50% - 96px);
+
+    img {
+      transition: all 0.3s ease-in;
+    }
+  }
+
+  .macaroon__title {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 26px;
+  }
+
+  .macaroon__order-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .macaroon__order-info {
+      font-family: GilroyRegular, sans-serif;
+      font-size: 15px;
+
+      .macaroon__order-quantity {
+        margin-bottom: 15px;
+      }
+    }
+
+    .order__btn {
+      font-size: 16px;
+      height: 50px;
+      width: 130px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .macaroon {
+    width: 263px;
+    margin: 0 auto;
+  }
+}

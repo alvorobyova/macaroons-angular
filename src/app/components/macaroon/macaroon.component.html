@@ -1,0 +1,14 @@
+<div class="macaroon">
+  <div class="macaroon__image">
+    <img src="assets/img/{{macaroon.image}}"alt="Макарун" class="macaroon__image-img">
+  </div>
+  <div class="macaroon__title">{{macaroon.title}}</div>
+  <div class="macaroon__order-info-wrapper">
+    <div class="macaroon__order-info">
+      <div class="macaroon__order-quantity">{{macaroon.quantity}} шт.</div>
+      <div class="macaroon__order-price">{{macaroon.price | currency:'RUB':'code':'1.2-2' |slice:3 }} руб.</div>
+    </div>
+    <button class="btn order__btn"(click)="addMacaroonToCart()"
+            btnBackground [btnDefaultBgColor]="'#B7BC01'">Заказать</button>
+  </div>
+</div>
