@@ -1,4 +1,4 @@
-## Macaroons order 🧁
+## Macarons order 🧁
 
 
 This project was implemented using the Angular framework, the programming language used is TypeScript<br>
