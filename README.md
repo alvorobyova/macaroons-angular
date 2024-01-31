@@ -1,27 +1,21 @@
-# Macaroons
+## Macaroons order 🧁
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
 
-## Development server
+This project was implemented using the Angular framework, the programming language used is TypeScript.
+Available for use on devices of all sizes.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Styles are written using the SCSS preprocessor.
 
-## Code scaffolding
+The project involves separate components designed to display identical, repeating block elements.
+Various directives, services and pipes (both standard and custom) are also used.
+ 
+✔️ upon clicking the 'order' button, a window appears notifying which product has been added to the cart, and there is also a smooth scrolling to the form. In addition, the first field of the form is automatically filled in according to which macaron was selected;
+✔️ after adding an item to the cart, a counter for goods and their cost is triggered (the cost can be seen by hovering over the cart icon);
+✔️ the order submission form is validated - sending an empty form is excluded;
+✔️ if any field is not filled in, a warning appears (implemented using the Hot Toast plugin).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+run backend → `npm start`
+run dev server → `ng serve --o`
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
